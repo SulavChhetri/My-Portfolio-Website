@@ -48,6 +48,10 @@ header{
     color: hsl(180, 100%, 25%);
 }
 
+.active1{
+    color: hsl(180, 100%, 25%);
+}
+
 .contact{
     padding: 9px 25px;
     background-color: hsl(180, 100%, 15%);
