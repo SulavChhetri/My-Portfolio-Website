@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>My Portfolio Website</title>
+</head>
+
+<body>
+    <header class="header" id="header" style="box-shadow: 0 0mm 1.5rem rgb(0 0 0 / 20%);">
+        <a href="#name" class="name">Sulav,</a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+        <a href="#contactme" class="contacta"><button class="contact">Contact Me</button></a>
+    </header>
+    <main class="main" id="main">
+        <div class="main__data">
+            <section class="section__intro">
+                <div class="intro">
+                    <h1 id="intro__heading">Hi, I'm Sulav</h1>
+                    <h2 id="work">Frontend Developer</h2>
+                    <p class="intro__text">I'm a web developer based in Syangja, Nepal. I love to create beautiful and
+                        functional websites and mobile applications. Feel free to contact me if you </p>
+                    <p>have any questions.</p>
+                </div>
+                <button class="contactme">
+                    <a href="#" class="Seemore">See More</a>
+                    <i class="uil uil-arrow-circle-right"></i>
+                </button>
+            </section>
+            <aside>
+                <img src="img/laptop.jpg" alt="Photo of a Laptop" class="laptopimage">
+            </aside>
+        </div>
+        <div class="scrolldown">
+            <i class="uil uil-mouse">Scrolldown</i>
+            <i class="uil uil-arrow-down"></i>
+        </div>
+        <div class="main__aboutme">
+            <h1 id="aboutme">About me</h1>
+            <h2 id = "introduction">My introduction</h2>
+            <div class="cvdata">
+                <aside>
+                    <img src="img/myphoto.jpg" alt="Photo of Sulav Thapa" class="myimage">
+                </aside>
+                <div class="anotherintro">
+                    <p class="intro__text">Web developer and mobile application developer with extensive knowlegde and years of experience, working in web technologies and UI designs, delivering quality work.</p>
+                    <div class="extracv">
+                        <div class="extracv__items">
+                            <h2>03+</h2>
+                            <h3>Years expericence</h3>
+                        </div>
+                        <div class="extracv__items">
+                            <h2>10+</h2>
+                            <h3>Completed Projects</h3>
+                        </div>
+                        <div class="extracv__items">
+                            <h2>02+</h2>
+                            <h3>Companies Worked</h3>
+                        </div>
+                    </div>
+                    <button class= "contact">Download CV</button>
+                </div>
+            </div>
+        </div>
+        <div class="scrolldown" id="scrolldown2">
+            <i class="uil uil-mouse">Scrolldown</i>
+            <i class="uil uil-arrow-down"></i>
+        </div>
+       <section>
+        <div class="mainportfolio">
+            <h1 id="portfolio">Portfolio</h1>
+            <h2 id="recentwork">Most recent work</h2>
+            <div class="recentprojects">
+                <div id="slider">
+                    <div class="project__items">
+                        <img src="img/project4.jpg" alt="Photo of a project" class="image">
+                        <div class="project__overlay">
+                            <div class="project__overlay__text">
+                                <h3>My Todo list</h3>
+                                <p>This is my first ever Todo App designed with the help of Html, CSS and simple Javascript.</p>
+                                <a href="#seedemo">See Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__items id2">
+                        <img src="img/project1.jpg" alt="Photo of a project" class="image">
+                        <div class="project__overlay">
+                            <div class="project__overlay__text">
+                                <h3>My Porfolio Website</h3>
+                                <p>My first ever website designed with HTML, CSS and simple Javascript.</p>
+                            <a href="#seedemo">See Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__items id2">
+                        <img src="img/project2.jpg" alt="Photo of a project" class="image">
+                        <div class="project__overlay">
+                            <div class="project__overlay__text">
+                                <h3>Online Shopping centre</h3>
+                                <p>Online Shopping centre Site with beautiful UI design.</p>
+                                <a href="#seedemo">See Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__items id2">
+                        <img src="img/project3.jpg" alt="Photo of a project" class="image">
+                        <div class="project__overlay">
+                            <div class="project__overlay__text">
+                                <h3>Covid 19 tracker</h3>
+                                <p>Covid 19 tracker site, which tracks the ongoing count of no. of deaths of people all around the world.</p>
+                            <a href="#seedemo">See Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                  </div>
+            </div>
+        </div>
+       </section>
+       <div class="newproject">
+           <div class="newproject__items">
+               <h2 id="newidea">You have a new Project</h2>
+               <h3 id="newideatext">Contact me now and get a 30% discount on your new project</h3>
+               <a href="#contactnewproject">Contact Now</a>
+           </div>
+           <img src="img/idea.jpg" alt="A picture of a bulb" class="project__image">
+       </div>
+    </main>
+    <footer>
+       <div class="footer__items">
+           <hr>
+              <h2>Copyright &copy; Reserved</h2>
+              <div class="footer__items__contact">
+                <div class="footer__items__contact__items">
+                     <i class="uil uil-phone"></i>
+                     <p>+977-984-988-988</p>
+                </div>
+                <div class="footer__items__contact__items">
+                     <i class="uil uil-envelope"></i>
+                     <h3>sulavthapachhetri@gmail.com</h3>
+       </div> 
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
